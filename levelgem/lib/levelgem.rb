@@ -1,10 +1,10 @@
 
 class Levelfinder
 	#take input of current level, current difficulty of question, questions answered, amount of correct answers
-	def self.getLevel(curr_level,curr_diff,ques_count,corr_count)
+	def self.getLevel(curr_level, curr_diff, ques_count, corr_count, min_questions)
 
 		#makes sure user has answered enough questions to be graded properly
-		if ques_count >= 5
+		if ques_count >= min_questions
 			# work out 80% of answered questions as target to reach
 			target = ques_count.to_f * 80 / 100
 			
