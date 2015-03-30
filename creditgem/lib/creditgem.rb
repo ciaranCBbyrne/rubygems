@@ -18,6 +18,7 @@ class Credit
 			@genius = "TopGun"
 		end
 
+		return @genius
 	end
 end
 				
