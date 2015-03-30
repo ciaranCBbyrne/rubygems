@@ -6,6 +6,6 @@ Gem::Specification.new do |s|
  s.description = "A simple gem"
  s.authors = ["Ciaran Byrne"]
  s.email = 'x12120502@student.ncirl.ie'
- s.homepage = 'http://rubygems.org/gems/mathshelper'
+ s.homepage = 'https://github.com/ciaranCBbyrne/rubygems.git'
  s.files = ["lib/mathshelper.rb"]
 end
